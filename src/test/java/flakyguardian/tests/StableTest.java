@@ -3,7 +3,7 @@ package flakyguardian.tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class StableTests {
+public class StableTest {
 
     @Test
     public void alwaysPasses(){

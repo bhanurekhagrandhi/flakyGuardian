@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import java.util.Random;
 
-public class FlakyTests {
+public class FlakyTest {
 
     @Test
     public void timingFlake() throws InterruptedException {

@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import java.util.Random;
 
-public class OrderDependentTests {
+public class OrderDependentTest {
 
     static boolean initialized=false;
     @Test
