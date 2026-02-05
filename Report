@@ -1,80 +1,35 @@
 Job 1:
 Failures:
-[ERROR]   FlakyTests.fakeNetworkFlake:24 expected [true] but found [false]
-[ERROR]   FlakyTests.randomFlake:18 expected [true] but found [false]
-[ERROR]   OrderDependentTests.step2:18 expected [true] but found [false]
-[ERROR]   OrderDependentTests.step4:29 expected [true] but found [false]
-[ERROR]   OrderDependentTests.step6:40 expected [true] but found [false]
-[ERROR]   ResourceContention.cpuSensitiveTest:22 Took too long: 101ms expected [true] but found [false]
-[INFO]
-[ERROR] Tests run: 13, Failures: 6, Errors: 0, Skipped: 0
-
-Job 2:
-Failures:
-[ERROR]   FlakyTests.randomFlake:18 expected [true] but found [false]
 [ERROR]   FlakyTests.timingFlake:13 expected [true] but found [false]
 [ERROR]   OrderDependentTests.step2:18 expected [true] but found [false]
-[ERROR]   OrderDependentTests.step4:29 expected [true] but found [false]
-[ERROR]   ResourceContention.cpuSensitiveTest:22 Took too long: 104ms expected [true] but found [false]
+[ERROR]   ResourceContention.cpuSensitiveTest:22 Took too long: 102ms expected [true] but found [false]
 [INFO]
-[ERROR] Tests run: 13, Failures: 5, Errors: 0, Skipped: 0
+[ERROR] Tests run: 9, Failures: 3, Errors: 0, Skipped: 0
 
-Job 3:
-Results:
-[INFO]
-[ERROR] Failures:
-[ERROR]   FlakyTests.randomFlake:18 expected [true] but found [false]
+Failures:
+[ERROR]   FlakyTests.randomFlake:19 expected [true] but found [false]
 [ERROR]   FlakyTests.timingFlake:13 expected [true] but found [false]
 [ERROR]   OrderDependentTests.step2:18 expected [true] but found [false]
-[ERROR]   OrderDependentTests.step4:29 expected [true] but found [false]
-[ERROR]   OrderDependentTests.step6:40 expected [true] but found [false]
-[ERROR]   ResourceContention.cpuSensitiveTest:22 Took too long: 79ms expected [true] but found [false]
 [INFO]
-[ERROR] Tests run: 13, Failures: 6, Errors: 0, Skipped: 0
+[ERROR] Tests run: 9, Failures: 3, Errors: 0, Skipped: 0
 
-Job 4:
 Failures:
-[ERROR]   FlakyTests.randomFlake:18 expected [true] but found [false]
 [ERROR]   FlakyTests.timingFlake:13 expected [true] but found [false]
 [ERROR]   OrderDependentTests.step2:18 expected [true] but found [false]
-[ERROR]   OrderDependentTests.step4:29 expected [true] but found [false]
-[ERROR]   OrderDependentTests.step6:40 expected [true] but found [false]
-[ERROR]   ResourceContention.cpuSensitiveTest:22 Took too long: 93ms expected [true] but found [false]
 [INFO]
-[ERROR] Tests run: 13, Failures: 6, Errors: 0, Skipped: 0
+[ERROR] Tests run: 9, Failures: 2, Errors: 0, Skipped: 0
 
-Job 5:
 Failures:
-[ERROR]   FlakyTests.fakeNetworkFlake:24 expected [true] but found [false]
-[ERROR]   FlakyTests.randomFlake:18 expected [true] but found [false]
+[ERROR]   FlakyTests.randomFlake:19 expected [true] but found [false]
+[ERROR]   FlakyTests.timingFlake:13 expected [true] but found [false]
 [ERROR]   OrderDependentTests.step2:18 expected [true] but found [false]
-[ERROR]   OrderDependentTests.step4:29 expected [true] but found [false]
-[ERROR]   OrderDependentTests.step6:40 expected [true] but found [false]
-[ERROR]   ResourceContention.cpuSensitiveTest:22 Took too long: 93ms expected [true] but found [false]
+[ERROR]   ResourceContention.cpuSensitiveTest:22 Took too long: 102ms expected [true] but found [false]
 [INFO]
-[ERROR] Tests run: 13, Failures: 6, Errors: 0, Skipped: 0
+[ERROR] Tests run: 9, Failures: 4, Errors: 0, Skipped: 0
 
-Job 6:
 Failures:
-[ERROR]   FlakyTests.randomFlake:18 expected [true] but found [false]
 [ERROR]   OrderDependentTests.step2:18 expected [true] but found [false]
-[ERROR]   OrderDependentTests.step4:29 expected [true] but found [false]
-[ERROR]   OrderDependentTests.step6:40 expected [true] but found [false]
-[ERROR]   ResourceContention.cpuSensitiveTest:22 Took too long: 103ms expected [true] but found [false]
-
-Job 7:
-Failures:
-[ERROR]   FlakyTests.randomFlake:18 expected [true] but found [false]
-[ERROR]   OrderDependentTests.step2:18 expected [true] but found [false]
-[ERROR]   OrderDependentTests.step4:29 expected [true] but found [false]
-[ERROR]   OrderDependentTests.step6:40 expected [true] but found [false]
+[ERROR]   ResourceContention.cpuSensitiveTest:22 Took too long: 100ms expected [true] but found [false]
 [INFO]
-[ERROR] Tests run: 13, Failures: 4, Errors: 0, Skipped: 0
+[ERROR] Tests run: 9, Failures: 2, Errors: 0, Skipped: 0
 
-fakeNetworkFlake -2/7
-randomFlake -7/7
-step2 -7/7
-step4 -7/7
-step6 -6/7
-cpuSensitiveTest -6/7
-timingFlake -3/5

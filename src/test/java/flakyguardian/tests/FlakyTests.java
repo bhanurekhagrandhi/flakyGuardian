@@ -10,7 +10,7 @@ public class FlakyTests {
     @Test
     public void timingFlake() throws InterruptedException {
         Thread.sleep((long)(Math.random()*100));
-        Assert.assertTrue(System.currentTimeMillis()%2==0);
+        Assert.assertTrue(System.currentTimeMillis()%9>4);
     }
 
     @Test

@@ -14,7 +14,8 @@ public class OrderDependentTests {
         initialized=true;
     }
     @Test
-    public void step2(){
+    public void step2() throws InterruptedException {
+        Thread.sleep((long)(Math.random()*100));
         Assert.assertTrue(initialized);
     }
 
