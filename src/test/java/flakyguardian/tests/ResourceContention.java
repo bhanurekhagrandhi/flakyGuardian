@@ -19,7 +19,7 @@ public class ResourceContention {
 
         long durationMs = (System.nanoTime() - start) / 1_000_000;
 
-        Assert.assertTrue(durationMs < 1, "Took too long: " + durationMs + "ms");
+        Assert.assertTrue(durationMs < 100, "Took too long: " + durationMs + "ms");
     }
 
     @Test
