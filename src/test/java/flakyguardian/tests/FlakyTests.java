@@ -15,7 +15,8 @@ public class FlakyTests {
 
     @Test
     public void randomFlake(){
-        Assert.assertTrue(Math.random()%2==0);
+        int value = new Random().nextInt(10);
+        Assert.assertTrue(value > 2);
     }
 
     @Test

@@ -18,25 +18,4 @@ public class OrderDependentTests {
         Assert.assertTrue(initialized);
     }
 
-    @Test
-    public void step3() throws InterruptedException {
-        Thread.sleep( new Random().nextInt(50));
-        initialized=false;
-    }
-
-    @Test
-    public void step4(){
-        Assert.assertTrue(initialized);
-    }
-
-    @Test
-    public void step5() throws InterruptedException {
-        Thread.sleep( new Random().nextInt(50));
-        initialized=true;
-    }
-
-    @Test
-    public void step6(){
-        Assert.assertTrue(initialized);
-    }
 }

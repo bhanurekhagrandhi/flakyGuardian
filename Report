@@ -54,10 +54,27 @@ Failures:
 [INFO]
 [ERROR] Tests run: 13, Failures: 6, Errors: 0, Skipped: 0
 
-fakeNetworkFlake -2/5
-randomFlake -5/5
-step2 -5/5
-step4 -5/5
-step6 -4/5
-cpuSensitiveTest -5/5
+Job 6:
+Failures:
+[ERROR]   FlakyTests.randomFlake:18 expected [true] but found [false]
+[ERROR]   OrderDependentTests.step2:18 expected [true] but found [false]
+[ERROR]   OrderDependentTests.step4:29 expected [true] but found [false]
+[ERROR]   OrderDependentTests.step6:40 expected [true] but found [false]
+[ERROR]   ResourceContention.cpuSensitiveTest:22 Took too long: 103ms expected [true] but found [false]
+
+Job 7:
+Failures:
+[ERROR]   FlakyTests.randomFlake:18 expected [true] but found [false]
+[ERROR]   OrderDependentTests.step2:18 expected [true] but found [false]
+[ERROR]   OrderDependentTests.step4:29 expected [true] but found [false]
+[ERROR]   OrderDependentTests.step6:40 expected [true] but found [false]
+[INFO]
+[ERROR] Tests run: 13, Failures: 4, Errors: 0, Skipped: 0
+
+fakeNetworkFlake -2/7
+randomFlake -7/7
+step2 -7/7
+step4 -7/7
+step6 -6/7
+cpuSensitiveTest -6/7
 timingFlake -3/5
